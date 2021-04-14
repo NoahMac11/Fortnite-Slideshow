@@ -132,6 +132,8 @@ footer{
 @media only screen and (max-width: 767px){
 	header img{
 		float: none;
+		display: block;
+		margin:auto;
 	}
 	header h1{
 		text-align: center;
