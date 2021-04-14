@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fortnite Slideshow</title>
+
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<img src="images/FortniteLogo.jpeg" alt="Fortnite Logo">
+		<h1>Fortnite Slideshow</h1>
+	</header>
+	<main>
+		<div id="wrapper">
+
+			<div class="slider-wrapper theme-default">
+
+				<div id="slider" class="nivoSlider">
+					<img src="images/FortniteSeason1.jpeg" data-thumb="images/FortniteSeason1.jpeg" title="Chapter 1 Season 1">
+					<img src="images/FortniteSeason2.jpeg" data-thumb="images/FortniteSeason2.jpeg" alt="" title="Chapter 1 Season 2">
+					<img src="images/FortniteSeason3.jpeg" data-thumb="images/FortniteSeason3.jpeg" title="Chapter 1 Season 3">
+					<img src="images/FortniteSeason4.jpeg" data-thumb="images/FortniteSeason4.jpeg" alt="" title="Chapter 1 Season 4">
+					<img src="images/FortniteSeason5.jpeg" data-thumb="images/FortniteSeason5.jpeg" title="Chapter 1 Season 5">
+					<img src="images/FortniteSeason6.jpeg" data-thumb="images/FortniteSeason6.jpeg" alt="" title="Chapter 1 Season 6">
+					<img src="images/FortniteSeason7.jpeg" data-thumb="images/FortniteSeason7.jpeg" title="Chapter 1 Season 7">
+					<img src="images/FortniteSeason8.jpeg" data-thumb="images/FortniteSeason8.jpeg" alt="" title="Chapter 1 Season 8">
+					<img src="images/FortniteSeason9.jpeg" data-thumb="images/FortniteSeason9.jpeg" title="Chapter 1 Season 9">
+					<img src="images/FortniteSeasonX.jpeg" data-thumb="images/FortniteSeasonX.jpeg" alt="" title="Chapter 1 Season X">
+					<img src="images/FortniteChapter2Season1.png" data-thumb="images/FortniteChapter2Season1.png" title="Chapter 2 Season 1">
+					<img src="images/FortniteChapter2Season2.jpeg" data-thumb="images/FortniteChapter2Season2.jpeg" alt="" title="Chapter 2 Season 2">
+					<img src="images/FortniteChapter2Season3.jpeg" data-thumb="images/FortniteChapter2Season3.jpeg" title="Chapter 2 Season 3">
+					<img src="images/FortniteChapter2Season4.jpeg" data-thumb="images/FortniteChapter2Season4.jpeg" alt="" title="Chapter 2 Season 4">
+					<img src="images/FortniteChapter2Season5.jpeg" data-thumb="images/FortniteChapter2Season5.jpeg" title="Chapter 2 Season 5">
+					<img src="images/FortniteChapter2Season6.jpeg" data-thumb="images/FortniteChapter2Season6.jpeg" alt="" title="Chapter 2 Season 6">
+				</div>
+
+			</div>
+			
+		</div>
+	</main>
+	<footer>
+		<p>&copy; <script>document.write(new Date().getFullYear())</script> Noah Macallister</p>
+	</footer>
+
+	<!----------------- Runs the Slideshow ------------------>
+	<script type="text/javascript">
+		$(window).load(function()
+		{
+			$('#slider').nivoSlider();
+		});
+	</script>
+
+
+</body>
+</html>
